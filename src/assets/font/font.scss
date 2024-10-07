@@ -1,0 +1,15 @@
+@charset "UTF-8";
+// 定义字体
+@font-face {
+  font-family: "SourceHanSansSC";
+  src: url('~@/assets/font/SourceHanSansSC-VF.ttf');   // 注意这里的路径
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "fzzys";
+  src: url('~@/assets/font/fzzys.TTF');   // 注意这里的路径
+  font-weight: normal;
+  font-style: normal;
+}
