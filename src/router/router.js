@@ -8,8 +8,10 @@ import BlogView from "@/router/views/BlogView";
 import AboutView from "@/router/views/AboutView";
 import GroupView from "@/router/views/GroupView";
 
+import ManagerView from "@/router/views/ManagerView";
+
 import front from "@/manage/front";
-import LoginView from "@/manage/LoginView.vue";
+import LoginView from "@/router/views/LoginView.vue";
 import main from "@/manage/main.vue";
 import l2dtest from "@/manage/components/l2dtest.vue";
 import siteset from "@/manage/sitemanage/siteset.vue";
@@ -18,6 +20,7 @@ import headerUsed from "@/manage/components/headerUsed.vue";
 import editor from "@/manage/blogedit/editor.vue";
 import jumpTest from "@/manage/components/jumpTest.vue";
 
+//TODO 跳转前与后端校验登录状态
 
 const routes = [
     {
@@ -61,9 +64,8 @@ const routes = [
         name: 'siteset',
         component: siteset,
     },
-    { path: '/manage/group',
-        name: 'group',
-        component: group,
+    { path: '/managerView',
+        component: ManagerView,
     },
     { path: '/manage/editor',
         name: 'editor',

@@ -1,11 +1,13 @@
 import request from "@/router/axios.js";
 
+//TODO 根据新后端重写api
+
 export function fetchAllArticles(){
-    return request.get('/api/v1/getAllArticle')
+    return request.get('/api/v1/getAllArticle', false)
 }
 
 export function fetchArticleListInfo(){
-    return request.get('/api/v1/articleList')
+    return request.get('/api/v1/articleList',  false)
 }
 
 export function fetchArticlesByPage(page){

@@ -5,12 +5,7 @@
 
   <main class="main">
     <router-view/>
-    <div class="police-code">
-      <a-divider></a-divider>
-      <div style="color: white;text-align: center">
-        备案号：鄂ICP备2024058202号-1
-      </div>
-    </div>
+
   </main>
 </template>
 

@@ -4,7 +4,6 @@
   <div class="btn-group-trans">
     <Demo v-show="show" ref="btnGroupInst"></Demo>
   </div>
-
     <div class = "top" ref="topImg">
       <div class="fp-table-cell">
         <div class="media-cover"></div>

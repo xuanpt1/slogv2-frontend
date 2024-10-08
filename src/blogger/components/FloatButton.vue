@@ -61,6 +61,7 @@ import {MenuOutlined, UserOutlined, HomeOutlined, InfoCircleOutlined, GroupOutli
       "@ant-design/icons-vue"
 import {FloatButton} from "ant-design-vue";
 import {reactive} from "vue";
+import {test} from "@/manage/manageApi/manage";
 
   export default {
     data(){
@@ -88,6 +89,7 @@ import {reactive} from "vue";
         // if(this.$route.fullPath !== '/Blogger/Group'){
         //   this.$router.push('/Blogger/Group')
         // }
+        test()
       },
       loginClick(){
         if(this.$route.fullPath !== '/Login'){
